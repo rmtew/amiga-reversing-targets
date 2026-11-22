@@ -61,6 +61,16 @@
       "size": 419308,
       "sha256": "20c19400180d7e846b78aa615b68446293f8ca54015c4f4a42a77f03b24e8260",
       "qualification": "exact decoded program/member payload; not whole-media or emulator boot"
+    },
+    {
+      "id": "pandora",
+      "title": "Pandora (1988 Firebird) Amiga absolute gameplay program",
+      "directory": "pandora-1988-firebird",
+      "entry": "pandora_3e1ee0f1_bk_00_000000e8.s",
+      "output": "build/pandora.raw",
+      "size": 376832,
+      "sha256": "70480017cbedb4ed1d28c0bb190917720b8d2780914c37622b0df92c070aee8f",
+      "qualification": "exact original fixed-address BK-decoded program; not whole-media or emulator boot"
     }
   ],
   "files": [
@@ -73,14 +83,14 @@
     {
       "path": "PROVENANCE.md",
       "kind": "provenance_and_notices",
-      "size": 2587,
-      "sha256": "1574053dcabae2ee523f08ac3203344dd88566a39d4e0e9af89617dac1c4c7e5"
+      "size": 3739,
+      "sha256": "6feb2d107cbd138170eb64cf54ae494823b34919ef70534ed968859a48363c5b"
     },
     {
       "path": "README.md",
       "kind": "build_documentation",
-      "size": 2444,
-      "sha256": "96aa47e39e6b2ba9fb024495ceecfb428c58abc1a46016dfa8940fae49736dbd"
+      "size": 2567,
+      "sha256": "ddaf78b4174a02e9caff356d17383aaf0c041faf160a41f7b8fa1cc52a0ec870"
     },
     {
       "path": "build.py",
@@ -381,6 +391,780 @@
       "kind": "generated_resolved_interface_constants",
       "size": 963,
       "sha256": "93f279aed85e3616a37d6cf4fdd43ea92ea914cca9a2b07e738496b967085324"
+    },
+    {
+      "path": "pandora-1988-firebird/README.md",
+      "kind": "build_documentation",
+      "size": 626,
+      "sha256": "41a73ee15412dfea4b50af5c44d3625a7da19e32ece9ecdf4baa1389e94fadfa"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/audio_sample_00_payload.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 5102,
+      "sha256": "dd496cbe89f0dfc552c55410bb8b558139d7b534d71e7d11d9c8d75aa5772762"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/audio_sample_01_payload.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3148,
+      "sha256": "5179acf84db2dab707f5b4a6947160c8da12db5236034fe4613d04f42251f385"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/audio_sample_02_payload.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 4634,
+      "sha256": "ea046236cd08baed0e512fe4f8ca28d61284e40f24c8e5f3bf6969da917ba6b3"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/audio_sample_03_payload.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 5500,
+      "sha256": "4561e38ab8345d32dc0b101a10ca12ead3b458b1e4c9d5e6c071f7d88973bd72"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/audio_sample_04_payload.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 5300,
+      "sha256": "d9881da71b4aad45e943ba2a620938782356f1d6fe43b807df129654fd4b4945"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/audio_sample_05_payload.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 2000,
+      "sha256": "4c596460a1e3d1b9e59c9ea1ddc668741356829aa30b763b789a0279042a6986"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/modal_tile_bitmaps.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3712,
+      "sha256": "63b422563ab72a08acb094e74bd8b614c81a2bee289a710a4a6c31ddcdba386b"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/preserved_uncopied_payload_tail.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 27792,
+      "sha256": "3fb12746fa5b4e89048231415d5173d571633dffcc89d15d926ce7a3dc0eb1ba"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_910_cell_mask_bank.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 7280,
+      "sha256": "82f77fee9a424367ce029bbaec16017746821729cb66754095969955da3cfd6e"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_00.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 11264,
+      "sha256": "132888cb5ed28f19353e1735cdc4702dfd5dbc123e690edcc1669d42a4981592"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_01.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3072,
+      "sha256": "b1003c1d80eaa60c93453dac07bfb6ce5995889a36c4a43d318026461d02b5ee"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_02.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3072,
+      "sha256": "0afe77c7179efb7692bc3efa5c794d4941485c355734eff163c1be8acdb97bb4"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_03.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3584,
+      "sha256": "fe5bcaa56c191d2da6b31e39292f53dbe8e6b254cc5df2701969de7187ea570c"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_04.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3584,
+      "sha256": "a79457615987a503bad2c1b6a048fcbe557f25f6bb27401da96ea2ae54cd0179"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_05.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 2048,
+      "sha256": "49dd30c5394668e03e933394ae0715cb8835a52ef7e635a75e63b1ebe9cb2bc1"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_06.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3456,
+      "sha256": "8234a4563f3f9290549bcbd5765d5a3dc0cb608e9f2b6c8a66dd928b5e6e3b8f"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_07.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 432,
+      "sha256": "f821f2433b2a3a0410f369eee8fca86a8a2551fb62963044e84a94a991db1c75"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_08.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "c5183e41248adbdfe1e4a4e0c4eed91f14c1adffdc050bc5f40aec1b2832d490"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_09.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1120,
+      "sha256": "03cc30f1697fd61bb9f568a660f9e06350f405bc030fcee54d4674a313e29fbb"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_10.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "0ab00d8af40dbb44d8df2d3b51c4625caddf7d05287f1cb9946a17c2acfd8c3e"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_11.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "f4af5b6f1c51355edc62e235c83be5e05f2d3742235d867c85952557ed0d8a7b"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_12.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "ceb0bfa19ca2d28dde2978cc7c76b569b4b85e4de41dab4bf89fef01472a6114"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_13.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 2592,
+      "sha256": "273e89acdfa0daa34ba9780f802ca5da592ed5226a107a24603a88989f8f9864"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_17.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 7584,
+      "sha256": "30c213a6631e706eecdcdb0decf827e73ce3544f27f0cff45de6d09da8264a89"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_18.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 17488,
+      "sha256": "d90922e7848cc32b0f25fc198bbeac6aa31a205fafc7c85b07d4e33cad4af886"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_19.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 7680,
+      "sha256": "379bc0c6da359892f9c380ebcf97d0124d9abfc0ed8315ed76ee4c09d8ca6f20"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_20.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 5072,
+      "sha256": "e978e5a581758ca2e44362f05ed5312b7d3316fd2b0ed0b0fc2cfab17d1d6276"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_21.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 17376,
+      "sha256": "9c2819a46e5b7ba97c4f2d2063c32070731439d9020da121a5c7924b5004740d"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_22.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 2048,
+      "sha256": "b320cdaa09b9d5ed8f230c905ed631e6e98b1ec35a9dea61639847ec97a93e2c"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_23.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "fcce6d82c0d59de9fa103af55cd6ded3ab8eb9db32afe6b7cfc4f88e63a4a52e"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_24.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "af69b9ff463a57a9822c4bc815c73aa7f3d34a9e66d839bf4ec889f25cfd1538"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_25.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 2560,
+      "sha256": "b857d6172c6fb0dd4eb3bd1175b70ca6685b3f9a43737d60bb522e17ad51a984"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_26.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 7104,
+      "sha256": "e6e27da0655187553bb0a9bfd18436db4eba9137e037068e2f629d1e0878d838"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_27.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "f8e5b2bfa028ca90c0bf27223df53c28e0bd67920fd0898451ee93206d2d404c"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_28.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "b7892e51f51b66025266aa951190d25f122f91dcdcbee48ff1f5756d27b02a5e"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_29.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3840,
+      "sha256": "b5c2f20e453d0d124d933716600017e698e0fbdeec48d3b53183967dd4ee0382"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_30.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 5264,
+      "sha256": "dee0fd2efb317c657e26c44ca5304bb2cb00f90d1af413b9cfe6f67c7ac98b53"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_31.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "c913291b1f344bb32c9f7339724d758e913b3357bcd00f17b054feb59719f926"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_32.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 2048,
+      "sha256": "04b127025352c5ed56a5866876e32257fe9e2eabecadc3b5c7547c426648158b"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_33.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1536,
+      "sha256": "b32b5cb212c6c7f11be1c3f8cbb1a3014d89381f32b1fdae202e050e4918b815"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_34.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 272,
+      "sha256": "3f5fdb8e68c0a3649e558d121d3131a854d7d5377c47a0bd6e1a2c4435e54417"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_35.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "51ccaa3157d49dfc663354c8f2b0c80ca6fc32454d21c4cf087c08e621824aaf"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_36.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 864,
+      "sha256": "601aa3df60c08bd2342fe8db40c382d62e83cd5d3b7b96c17fdbb2329f2abe80"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_37.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1536,
+      "sha256": "3c89c6904e217eec7ce41138da108c990a2a68a3005f6ace04403bb130474292"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_38.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 496,
+      "sha256": "5e1baca99f6880b24bbea6691bc773f507865846b76d3e5168e648fd2ef1265e"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_39.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 512,
+      "sha256": "d0efc72617032e279864f5ffd33a63d7bf761d94ad7cb4ca790f93ad6513c07a"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_40.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3360,
+      "sha256": "487642b6d904fd4ba5a556776e8247cb5dbad2b222487b7e2688e8897714da50"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_41.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 160,
+      "sha256": "5fda18f1dbc27d761c2273fc171c8f78ade9ef7bce58350aab190ff9a9c3a654"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_42.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 2976,
+      "sha256": "d2dc9c761404b7af0fb09e8108cd74da928849beadab73fabb59a378e91c01ad"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_43.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1408,
+      "sha256": "7ce966a0b4489e991d9cf9a091f8430b1fa8f8cc6614b5fa38a1316a62b77ab9"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_44.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1064,
+      "sha256": "8f6f416d7989c4661a895bda5f1cecb7ea0b8dfe09a13f218079012b6e23428f"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_45.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1136,
+      "sha256": "3510623bb6da262008d29e0e3224202a65978477917f965e7b72126a2f7ef2d5"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_46.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 880,
+      "sha256": "30a0b7de15f1822e65311870d0ac9722543618d4df515e067e798010a650e378"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_47.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 7232,
+      "sha256": "f4f9bf6dab49cf678f5335b5652868e1407a36e61ac85b2d6748346f75da1fbd"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_48.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 176,
+      "sha256": "905cc8bc9add0ccfe7fe0ba1670b64141d8996755d4562bf767bd3e99699ccee"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_49.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 256,
+      "sha256": "d78b7a08fb706490b0d281a0564f90c8399f2d00a241a87e32f139115d2d15d7"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_50.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 896,
+      "sha256": "3b014efe1624d47d77a4a5b8c6667b26c0b8fb3f0d0d0722f3cfc243b4dbb99b"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_51.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 360,
+      "sha256": "f16605bd3cefd6490a5e60748fad012066d1d2ec4558113c904a6042c29fcbfe"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_52.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "75d619c431edda7aebb2ec59dd6125b097628a80a00e79add15b42821c47e748"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_53.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 480,
+      "sha256": "ba58ef7f54e5bbfe4e5cae2aa0a4d1f87b61f2fb7395a8af7987d53a22be909d"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_54.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 240,
+      "sha256": "08c35618b9591fe509b43bd6c9138bbb932c2b8c6ba43538a722026b9228099c"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_55.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "2976744ea2427679162370b153ce0587e07924a0f2da6abc92f0adf81258f664"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_56.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "19347c5d832d7666a23819b0bafe9f713d74b9b020d7240878d87606c3eea894"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/scene_pixel_cells_for_mask_bank_57.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 7136,
+      "sha256": "247c06048267e376ec1ec805396e3b03b713881a077f5a4fd25a8e985ad87952"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/secondary_audio_waveform_bank.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 640,
+      "sha256": "9a6bcd8088cba44177e4116ee5ba240b63fad14d0263b42465c82f7870ec8ca6"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_position_frame_pixels_00_through_05.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3072,
+      "sha256": "7c7cdf7b19a076e270cd3183544ad1b62571ad6c830e36174631e79e21d79c2f"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_position_frame_pixels_06_through_11.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1536,
+      "sha256": "31d1bf823f8f738c8b266d9b39686fb8170354ea13bad2ff26f886dfb9091f64"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_position_frame_pixels_12_through_17.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3072,
+      "sha256": "da325b0ab5950fbb3f4b91cb7214ee5592f9996dfc797957dade6df910288ac4"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_000_through_011.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1536,
+      "sha256": "94211a0f2b2fc79e06ec27dbb5c1f7ee9dca0d761f6ee08ed8ba81d6683056d0"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_012.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "03c4d86d4027a74d36673a883d5fce56726b243eca8fa136e1222b4bf087c846"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_013_through_039.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3456,
+      "sha256": "1ae667d240836361797044d7602cefb8ae57fe002f8f2c76882e95ade6f7df32"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_040.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "ccf3dd9419ad9862d10124a49708b327b77c9a1ec8b54e0183682a94f11f3c14"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_041_through_042.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 256,
+      "sha256": "7a81d16e7e0f6941184061cf4ef7dcbca3fe86ddf7650fbe602d200e8a2d8992"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_043.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "dc9a400bcb577cdd36d6ddaced9bbe822fa412f29802793247a25702ffa39962"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_044_through_046.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 384,
+      "sha256": "e3866eefd692e72ffe5f83b448b50e0172047806af115099810cb2eb18624c7a"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_047.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "a052c81012dfd61b91d2ffffad884618d883d24a5087a42a49f6fcc0ca2b37a8"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_048_through_049.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 256,
+      "sha256": "a0af3c941d1b69e3d0bad721793e4a1a48f8133cb119a57f74556dd6f3e6ac94"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_050.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "952de258925215e035c0f9b2bdb5f5f83928138ff2f92ef151c4d65534d5b62f"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_051_through_055.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 640,
+      "sha256": "6f7c49dd28e1e05bfc117d54dbf5b25b77791eb6335673ac6ae6001cb6112c0f"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_056.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "a3f30eab958daf739b29fd4c7381c3915450f5a9c941d5d6fb492069e30646bb"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_057.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "19b1fe109afae539c970dd7de8adbcbb5af03c73daa961103e46d2a31ed06748"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_058.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "05b34d1b24452b32a5e6c89a60c4b03be8939a9e923860cacf66da7d884bb162"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_059.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "4a6bf1e50b4f9222783020ff6d1621e9848fca5f545fc697f7ad3d69c681f752"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_060_through_061.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 256,
+      "sha256": "d61d484905a3253ba0df5e813c5a7de1b16b5b13253c613df541588e7cef47f0"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_062.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "45f1cd5a2aeb40a4aa1573eb3075d2b60bbacf8de3eb3d6bf4fdd148c9ca3a5e"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_063.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "9b9d217f92568738ea5c4a886d557bbf72f4e755aa35d2817789282b983a07fd"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_064_through_070.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 896,
+      "sha256": "246b5f87ec43820c137b314707c4dd96b1b68a73ecd338d6b2c7df18419c7a7e"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_071.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "87a91743b2e1037c601f522ed8562be175d5dd8c1588951913e5656ef3b3944d"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_072.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "9b594694d384ebf7dd6e326f772317d2d376a005b1ba77cdd3e9ed09d089c2e6"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_073.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "01b0551e1dbe69b32e54e45961a961d2daf966ad53c6b0bc52ba446b4b39a4aa"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_074.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "b0cdb43d566447e5dbba38a2c08f7e4ba43ea6b52c7d321e0d614da11442a338"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_075.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "0ece7431473e335c7f82fe35a1eb0fe3fb1c80d11f72f8122987a5f0969cf26a"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_076.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "8b2f2c4efac5c34ce538b1b94feea44fc7b013734925afc26f7ed7b7af0d3ff4"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_077.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "daba459fe62b111bb10d159a3c4414efb9c46bdaa58ebe58cc2419d38402635c"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_078_through_089.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1536,
+      "sha256": "e06abf873e9937c1fc0e86e4c64d2bbc4c17097b2705ad53d21c987849fdaac9"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_090.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "6d11b1dedf11ec226356c1fb6216ba38312e06b8d6e54e098b7261de18bc3dfd"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_091_through_094.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 512,
+      "sha256": "68be6eb66f22767d6d78d4f0158be2f0df573dd11ec60b65cf88b2491b5886c7"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_095.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "a6a4e52a641a9936d3da42cadac2bdd83a2cb4aedbc343aefe6440410be1db08"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_096_through_101.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 768,
+      "sha256": "f094fc4cf071844870636f592a27ad5327b8a121604f716a5fd932ed9a03fb64"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_102.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "c914443bf0eac20447f59018675ad4ffae4dcc74997d4a1aa5680aed7a463b21"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_103.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "37ee8eb1b931115ed1150fc51bf127ef313a5f2cc4993dde5a1b29869194b804"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_104.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "17015cb504d53fff726b3b5aae239e028e0222c75b57f17a6e63caca30ee35ba"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_105_through_119.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1920,
+      "sha256": "10ff019eaffa92487503b335f1388f0a8df03c22c5ee6cda853ba65db9d23f5d"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_120.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "24f497fb2bf0c5b01822e63f8aba7978296ef535a6e4606e6f991e652e1985c1"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_121_through_164.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 5632,
+      "sha256": "fea7e77ad98def5f651ad2e4d8df5885e03ba134758ae8e382b7f5423456f261"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_165.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "72c5ebb86f00d4139598b800ac886f07322b1e5f1ba68b61c03827028a75424c"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_166.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "1436e095af0c07b2a9fb7fb600bce514d89dd0819b54866b94c1d28ea10b3c40"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_167.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "559475a0616314fab0d382f14c866f057bb6801318913852c55f1f824069df86"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_168_through_176.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1152,
+      "sha256": "21bb72620da7a71d61161b4c82b8ba725cf1f36425fce337c81128c4b0f8c52e"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_177.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "0ebe5b178caa015b1324369f9ce5fe01b3702005f8a990efff54c4bf564b7fd6"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_178_through_312.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 17280,
+      "sha256": "7f51afb21837abdb97028c98499e52631b1444efb5b2c12fcb536d6c9a2908c7"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_313.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "8239a54820e8139ed388a0f032773f3b98d702545dc7f66f46b6c22337195eeb"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_314_through_366.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 6784,
+      "sha256": "bb216d1a41475ecd59406eb0d892170d1440946e203668fb56729cb72cea3998"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_367.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "c5ef75fe82de4e938f8316466063854874507c52c7085a9604e19651321336f4"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_368_through_370.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 384,
+      "sha256": "a6ea015d4ca807632202f3cb31408dc847c96030ea1c5c0da8fbce51e92a69cd"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_371.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "7699ff3d26d0ffdda2dd34a6a72e16f87f493ac802e93305e552103d605321c9"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_372_through_380.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1152,
+      "sha256": "bb62d7794035b8081e174ca622272cf313a1d988416baf2f0a1ba0cc41cc2da8"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_381.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "35f380bc00613c384b47ca572790b7da1ed090e598eaca2bf3b2ca9f4565caf2"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_382.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "aba0442c2befe4ae1fb7ed4d5915ea2bdaf98c74db078d972a1f728ccaf5fea8"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_383_through_464.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 10496,
+      "sha256": "5b84b0af0080a0b5fbc66ccbdf1a6fcc5c0696f33b1d6d198856a63de5999fa8"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_465.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "d95276c0b9029aca83737f8e198c8e451294014c1272f6cc8a0f602634b3c5c1"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_466_through_489.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 3072,
+      "sha256": "6ef4fe7b2e1ba394a51a88becef2022cc015f4a5806d7ffd660fad23f7743255"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_490.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "676fb7a047b9f025edc4da80c3ca6212f466dfa29babefed9cd3e95c964c5176"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_491_through_498.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "613b63d297c2221d53b71e2acff93f5836f00e4aed57ca81d9b7c77ff3b53a9c"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_499.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 128,
+      "sha256": "1096e9cb5f26e6d38d2e0bb97f395c5a4ea1f6c31aa517069d0ee665e05195b9"
+    },
+    {
+      "path": "pandora-1988-firebird/assets/world_tile_pixels_500_through_507.bin",
+      "kind": "required_extracted_incbin_asset",
+      "size": 1024,
+      "sha256": "bb5fa2a7fbfcff10c1f0317c7b80fb8b9f42df5e08cec65bb6420916a3526f35"
+    },
+    {
+      "path": "pandora-1988-firebird/pandora_3e1ee0f1_bk_00_000000e8.s",
+      "kind": "generated_disassembly_source",
+      "size": 1530235,
+      "sha256": "d75378458ac45361921856c1af811c027c2dbc37e71788b10d562e6747b42120"
+    },
+    {
+      "path": "pandora-1988-firebird/platform/amiga-export-symbols.i",
+      "kind": "generated_resolved_interface_constants",
+      "size": 2595,
+      "sha256": "4d7c3b5964f138a60917519963230518d669598a726e745587da59a7f8c34abb"
     },
     {
       "path": "starglider2-retail/README.md",
