@@ -1,0 +1,34 @@
+; Generated resolved interface constants for this exported listing.
+; Source interface: Amiga 2.04 Includes V37.4 (NDK 2.0 snapshot).
+; Full SDK headers/macros/prose and development tools are not bundled.
+; Original SDK notice: (C) Copyright 1985-1991 Commodore-Amiga, Inc.
+; Original SDK notice: All Rights Reserved
+
+ADKF_USE0P1 EQU $00000010
+ADKF_USE0V1 EQU $00000001
+ADKF_USE1P2 EQU $00000020
+ADKF_USE1V2 EQU $00000002
+ADKF_USE2P3 EQU $00000040
+ADKF_USE2V3 EQU $00000004
+ADKF_USE3PN EQU $00000080
+ADKF_USE3VN EQU $00000008
+CIAB_LED EQU $00000001
+INTF_AUD0 EQU $00000080
+INTF_AUD1 EQU $00000100
+INTF_AUD2 EQU $00000200
+INTF_AUD3 EQU $00000400
+INTF_INTEN EQU $00004000
+INTF_SETCLR EQU $00008000
+ac_per EQU $00000006
+ac_vol EQU $00000008
+adkcon EQU $0000009E
+aud0 EQU $000000A0
+aud1 EQU $000000B0
+aud2 EQU $000000C0
+aud3 EQU $000000D0
+ciapra EQU $00000000
+dmacon EQU $00000096
+intena EQU $0000009A
+intenar EQU $0000001C
+intreq EQU $0000009C
+intreqr EQU $0000001E
